@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:shopping_cart/Constants/text.dart';
 import 'package:shopping_cart/Functions/customDialog.dart';
 
 CollectionReference addToCart =
@@ -13,8 +14,11 @@ Future<void> addcart(context, t1, t2) {
         'uid': FirebaseAuth.instance.currentUser?.uid
       })
       .then(
-        (value) => showAlertDialog(context, "Congratulations",
-            "Your Product is successfully added to your cart."),
+        (value) => showAlertDialog(
+          context,
+          TxtConst.congrats,
+          TxtConst.msg1,
+        ),
       )
       .catchError((error) => print("Failed to add user: $error"));
 }

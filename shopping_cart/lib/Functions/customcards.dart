@@ -1,7 +1,5 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:shopping_cart/Functions/customDialog.dart';
-
+import 'package:shopping_cart/Constants/text.dart';
 import 'addtocartfunc.dart';
 
 customcards(context, img, txt, a) {
@@ -35,8 +33,8 @@ customcards(context, img, txt, a) {
                 child: ElevatedButton(
                   onPressed: () {},
                   child: Text(
-                    "Details",
-                    style: TextStyle(fontSize: 10),
+                    TxtConst.details,
+                    style: const TextStyle(fontSize: 10),
                   ),
                 ),
               ),
@@ -49,8 +47,8 @@ customcards(context, img, txt, a) {
                     addcart(context, txt, a);
                   },
                   child: Text(
-                    "Add to Cart",
-                    style: TextStyle(fontSize: 10),
+                    TxtConst.addtocart,
+                    style: const TextStyle(fontSize: 10),
                   ),
                 ),
               ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_cart/Constants/text.dart';
 import 'package:shopping_cart/Screens/addtocart.dart';
 import 'package:shopping_cart/Widgets/cardrow.dart';
 import '../Constants/img.dart';
@@ -21,7 +22,7 @@ class Men extends StatelessWidget {
                 h: 0.1,
                 imageconst: ImgConst.img1,
               ),
-              CustomCardRow(),
+              const CustomCardRow(),
             ],
           ),
         ),
@@ -31,11 +32,11 @@ class Men extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => AddToCart(),
+              builder: (context) => const AddToCart(),
             ),
           );
         },
-        child: Text("Cart"),
+        child: Text(TxtConst.cart),
       ),
     );
   }

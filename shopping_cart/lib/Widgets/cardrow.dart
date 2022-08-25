@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_cart/Constants/text.dart';
 import '../Constants/img.dart';
 import '../Functions/customcards.dart';
 
@@ -15,14 +16,14 @@ class CustomCardRow extends StatelessWidget {
             customcards(
               context,
               ImgConst.card1,
-              "TShirt",
-              250,
+              TxtConst.tshirt1,
+              TxtConst.price3,
             ),
             customcards(
               context,
               ImgConst.card2,
-              "TShirt2",
-              250,
+              TxtConst.tshirt2,
+              TxtConst.price2,
             ),
           ],
         ),
@@ -32,14 +33,14 @@ class CustomCardRow extends StatelessWidget {
             customcards(
               context,
               ImgConst.card3,
-              "TShirt3",
-              250,
+              TxtConst.tshirt3,
+              TxtConst.price1,
             ),
             customcards(
               context,
               ImgConst.card4,
-              "TShirt4",
-              250,
+              TxtConst.tshirt4,
+              TxtConst.price3,
             ),
           ],
         ),
@@ -49,14 +50,14 @@ class CustomCardRow extends StatelessWidget {
             customcards(
               context,
               ImgConst.card5,
-              "TShirt5",
-              250,
+              TxtConst.tshirt5,
+              TxtConst.price1,
             ),
             customcards(
               context,
               ImgConst.card6,
-              "TShirt6",
-              250,
+              TxtConst.tshirt6,
+              TxtConst.price2,
             ),
           ],
         ),
