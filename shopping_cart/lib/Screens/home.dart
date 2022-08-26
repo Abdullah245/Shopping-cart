@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: ListView(
                 children: [
                   Column(
-                    children: [
+                    children: const [
                       CustomCarouselSlider(),
                       CustomListTile(),
                     ],

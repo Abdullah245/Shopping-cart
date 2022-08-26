@@ -13,51 +13,45 @@ class CustomCardRow extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            customcards(
-              context,
-              ImgConst.card1,
-              TxtConst.tshirt1,
-              TxtConst.price3,
+            CustomCards(
+              img: ImgConst.card1,
+              txt: TxtConst.tshirt1,
+              a: TxtConst.price3,
             ),
-            customcards(
-              context,
-              ImgConst.card2,
-              TxtConst.tshirt2,
-              TxtConst.price2,
+            CustomCards(
+              img: ImgConst.card2,
+              txt: TxtConst.tshirt2,
+              a: TxtConst.price2,
             ),
           ],
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            customcards(
-              context,
-              ImgConst.card3,
-              TxtConst.tshirt3,
-              TxtConst.price1,
+            CustomCards(
+              img: ImgConst.card3,
+              txt: TxtConst.tshirt3,
+              a: TxtConst.price1,
             ),
-            customcards(
-              context,
-              ImgConst.card4,
-              TxtConst.tshirt4,
-              TxtConst.price3,
+            CustomCards(
+              img: ImgConst.card4,
+              txt: TxtConst.tshirt4,
+              a: TxtConst.price3,
             ),
           ],
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            customcards(
-              context,
-              ImgConst.card5,
-              TxtConst.tshirt5,
-              TxtConst.price1,
+            CustomCards(
+              img: ImgConst.card5,
+              txt: TxtConst.tshirt5,
+              a: TxtConst.price1,
             ),
-            customcards(
-              context,
-              ImgConst.card6,
-              TxtConst.tshirt6,
-              TxtConst.price2,
+            CustomCards(
+              img: ImgConst.card6,
+              txt: TxtConst.tshirt6,
+              a: TxtConst.price2,
             ),
           ],
         ),

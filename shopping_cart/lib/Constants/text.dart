@@ -3,6 +3,9 @@ class TxtConst {
   static String women = "Women";
   static String children = "Children";
   static String congrats = "Congratulations";
+  static String alert = "Alert";
+  static String quantity = "Quantity";
+  static String enterquantity = "Enter Quantity";
   static String msg1 = "Your Product is successfully added to your cart.";
   static String details = "Details";
   static String addtocart = "Add to Cart";
